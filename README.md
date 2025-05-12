@@ -1,5 +1,3 @@
-# LLM_Chatlog_Typology
-Code for Processing and Visualize WildChat dataset, Part of MACSS Graduate Thesis
 # WildChat Typology Replication
 
 This repository contains a **turn‑key reproduction** of the quantitative pipeline described in Tianfang Zhu’s 2025 thesis on emergent user–LLM interaction types.  It walks from raw *WildChat‑1M* logs to the final cluster tables and UMAP figures that appear in the paper.
