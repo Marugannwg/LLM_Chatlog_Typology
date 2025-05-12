@@ -1,0 +1,35 @@
+# Core scientific stack
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+umap-learn==0.5.5
+
+# NLP / embedding
+
+sentence-transformers==2.6.1
+datasets==2.18.0
+tiktoken==0.6.0  # optional – token length estimates
+
+# Visualisation
+
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Utility
+
+pyarrow==15.0.2   # fast Parquet I/O
+tqdm==4.66.2
+
+# Jupyter workflow (optional)
+
+jupyterlab==4.1.5
+ipywidgets==8.1.2
+
+# If you need GPU acceleration for Sentence‑Transformers
+
+# pip install --upgrade torch
+
+# ⚠️ Choose the CUDA build that matches your driver, e.g.
+
+# pip install torch==2.2.2+cu121 torchvision==0.17.2+cu121 torchaudio==2.2.2 --index-url [https://download.pytorch.org/whl/cu126](https://download.pytorch.org/whl/cu126)
