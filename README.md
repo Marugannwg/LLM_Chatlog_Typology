@@ -31,15 +31,6 @@ python pipeline_overview.py --full   # ~45 min on an RTX 4090
 # 3.  Or step through the notebooks if you prefer an interactive walk‑through
 jupyter lab full_embedding.ipynb
 ```
-
-### Requirements
-
-* Python ≥ 3.9
-* pandas, numpy, scikit‑learn, sentence‑transformers, umap‑learn, matplotlib, seaborn, tqdm
-* (optional) cuBLAS/cuDNN‑enabled PyTorch for GPU‑accelerated embedding & UMAP
-
----
-
 ## Licence
 
 Code is MIT‑licensed; the **WildChat‑1M** dataset is released by AllenAI under its own terms—see the dataset card on Hugging Face.
