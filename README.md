@@ -1,6 +1,6 @@
 # WildChat Typology Replication
 
-This repository contains a **turn‑key reproduction** of the quantitative pipeline described in Tianfang Zhu’s 2025 thesis on emergent user–LLM interaction types.  It walks from raw *WildChat‑1M* logs to the final cluster tables and UMAP figures that appear in the paper.
+This repository contains a reproduction of the quantitative pipeline described in Tianfang Zhu’s 2025 thesis on emergent user–LLM interaction types.  It walks from raw *WildChat‑1M* logs to the final cluster tables and UMAP figures that appear in the paper.
 
 ---
 
@@ -38,17 +38,6 @@ jupyter lab full_embedding.ipynb
 * pandas, numpy, scikit‑learn, sentence‑transformers, umap‑learn, matplotlib, seaborn, tqdm
 * (optional) cuBLAS/cuDNN‑enabled PyTorch for GPU‑accelerated embedding & UMAP
 
-Install them manually or via `pip install -r requirements.txt` (a ready‑made file is included).
-
-### Configuration knobs
-
-Most paths and hyper‑parameters live in the `config` block at the top of `pipeline_overview.py`.  If you want to work on a laptop, set `--sample 50000` to down‑sample before embedding.
-
----
-
-
-You can then drop the PNGs directly into the LaTeX manuscript or tweak the colour palette inside `umap_plotting.ipynb`.
-
 ---
 
 ## Licence
@@ -57,4 +46,4 @@ Code is MIT‑licensed; the **WildChat‑1M** dataset is released by AllenAI und
 
 ---
 
-*Questions or issues?  Open a GitHub discussion or ping @Maruka.*
+*Questions or issues?  Open a GitHub discussion.*
